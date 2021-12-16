@@ -1,0 +1,150 @@
+.siteContent{
+  display: flex;
+  background-image: url('../../images/background.svg');
+  width: 100%;
+  height: 86vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.siteContent::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: red;
+  opacity: .6
+}
+
+.agentsCard{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  margin: 118px 64px;
+  width: 512px;
+
+  &__agent-name{
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 37px;
+    background-size: contain;
+    left: -19px;
+    top: 27px;
+    &-phoenix{
+      background-image: url('../../images/PHOENIXLabel.svg');
+    }
+    &-jett{
+      background-image: url('../../images/JETTLabel.svg');
+    }
+    &-sova{
+      background-image: url('../../images/SOVALabel.svg');
+    }
+    &-sage{
+      background-image: url('../../images/SAGELabel.svg');
+    }
+
+  }
+  &__agent-country{
+    width: 14px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 30px;
+    top: 27px;
+    position: absolute;
+    &-UK{
+      background-image: url('../../images/United Kingdom.svg');
+    }
+    &-KOREA{
+      background-image: url('../../images/South Korea.svg');
+    }
+    &-RUSSIA{
+      background-image: url('../../images/Russia.svg');
+    }
+    &-CHINA{
+      background-image: url('../../images/China.svg');
+    }
+  }
+  &__agent-skills{
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -24px;
+    left: 14px;
+    width: 267px;
+    height: 67px;
+    background: #1F2326;
+    border: 2px solid #F8F8F8;
+    box-sizing: border-box;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  &:first-child {
+    position: relative;
+    padding-bottom: 40px;
+
+  }
+  &__borderBottom{
+    background: #1F2326;
+    opacity: 0.5;
+    position: absolute;
+    width: 172px;
+    height: 8px;
+    bottom: 0px;
+
+  }
+  &__valorantIcon{
+    width: 50%;
+    height: 90px;
+    background-image: url('../../images/valorant.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: auto;
+  }
+  &__AGENTS{
+    width: 50%;
+    height: 100%;
+    background-image: url('../../images/AGENTS.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+  }
+&__player{
+  background-image: url("../../images/stroke.svg");
+  width: 263px;
+}
+
+  &__phoenix{
+    background-image: url('../../images/Phoenix.png');
+    width: 100%;
+    height: 610px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &__Jett{
+    background-image: url('../../images/Jett.png');
+    width: 100%;
+    height: 610px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &__Sova{
+    background-image: url('../../images/Sova.png');
+    width: 100%;
+    height: 610px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &__Sage{
+    background-image: url('../../images/Sage.png');
+    width: 100%;
+    height: 610px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+}
