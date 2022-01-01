@@ -19,7 +19,7 @@ const siteContent = () => {
                 <div className="agentsCard__player">
                     <div className='agentsCard__phoenix'></div>
                     <div className='agentsCard__agent-skills'>
-                        <img width='247px' src={phoenixAbilities} alt=""/>
+                        <img style='pointer-events: none' width='247px' src={phoenixAbilities} alt=""/>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@ const siteContent = () => {
                 <div className="agentsCard__player">
                     <div className='agentsCard__Jett'></div>
                     <div className='agentsCard__agent-skills'>
-                        <img width='247px' src={jettAbilities} alt=""/>
+                        <img style='pointer-events: none' width='247px' src={jettAbilities} alt=""/>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const siteContent = () => {
                 <div className="agentsCard__player">
                     <div className='agentsCard__Sova'></div>
                     <div className='agentsCard__agent-skills'>
-                        <img width='247px' src={sovaAbilities} alt=""/>
+                        <img style='pointer-events: none' width='247px' src={sovaAbilities} alt=""/>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ const siteContent = () => {
                 <div className="agentsCard__player">
                     <div className='agentsCard__Sage'></div>
                     <div className='agentsCard__agent-skills'>
-                        <img width='247px' src={sageAbilities} alt=""/>
+                        <img style='pointer-events: none' width='247px' src={sageAbilities} alt=""/>
                     </div>
                 </div>
             </div>
