@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e35b8bda.chunk.css",
+    "main.js": "/static/js/main.a628c49d.chunk.js",
+    "main.js.map": "/static/js/main.a628c49d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9d8ae5b8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9d8ae5b8.js.map",
+    "static/js/2.a5dad45a.chunk.js": "/static/js/2.a5dad45a.chunk.js",
+    "static/js/2.a5dad45a.chunk.js.map": "/static/js/2.a5dad45a.chunk.js.map",
+    "static/js/3.2c18b770.chunk.js": "/static/js/3.2c18b770.chunk.js",
+    "static/js/3.2c18b770.chunk.js.map": "/static/js/3.2c18b770.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e35b8bda.chunk.css.map": "/static/css/main.e35b8bda.chunk.css.map",
+    "static/js/2.a5dad45a.chunk.js.LICENSE.txt": "/static/js/2.a5dad45a.chunk.js.LICENSE.txt",
+    "static/media/content.scss": "/static/media/valorant.d5f326e1.svg",
+    "static/media/AbilitiesJett.e3da570b.svg": "/static/media/AbilitiesJett.e3da570b.svg",
+    "static/media/AbilitiesPhoenix.344fe2b4.svg": "/static/media/AbilitiesPhoenix.344fe2b4.svg",
+    "static/media/AbilitiesSage.368fa92a.svg": "/static/media/AbilitiesSage.368fa92a.svg",
+    "static/media/AbilitiesSova.d348e619.svg": "/static/media/AbilitiesSova.d348e619.svg",
+    "static/media/header.scss": "/static/media/valorantLogo.17053c36.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d8ae5b8.js",
+    "static/js/2.a5dad45a.chunk.js",
+    "static/css/main.e35b8bda.chunk.css",
+    "static/js/main.a628c49d.chunk.js"
+  ]
+}
