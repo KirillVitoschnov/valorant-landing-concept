@@ -7,6 +7,9 @@
   background-repeat: no-repeat;
   position: relative;
 }
+.eventNone{
+  pointer-events: none
+}
 .siteContent::after{
   content: '';
   display: block;
